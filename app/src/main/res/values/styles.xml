@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- base application theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--<item name="preferenceTheme">@style/PreferenceThemeOverlay</item>-->
+        <item name="preferenceTheme">@style/PreferenceThemeOverlay.v14.Material</item>
+    </style>
+
+    <!--<style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">-->
+    <style name="MyTextInputLayoutAppearance" parent="AppTheme">
+        <!-- user input text -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <!-- character counter -->
+        <item name="android:textColorSecondary">@color/white</item>
+        <!-- floating, underline and cursor - when focused - default = colorAccent -->
+        <item name="colorAccent">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <!-- unfocused underline color - default = textColorSecondary -->
+        <item name="colorControlNormal">@color/white</item>
+        <!-- hint color when field is empty -->
+        <item name="android:textColorHint">@color/white</item>
+        <!-- password visibility button tint -->
+        <item name="android:colorForeground">@android:color/darker_gray</item>
+        <!-- background -->
+        <!--<item name="android:background">@color/cell</item>-->
+        <!-- text size -->
+        <!--<item name="android:textSize">18sp</item>-->
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

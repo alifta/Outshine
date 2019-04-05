@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="steps">
+        <item>#B71C1C</item>
+    </string-array>
+
+    <string-array name="distance">
+        <item>#33691E</item>
+    </string-array>
+
+    <string-array name="calories">
+        <item>#01579B</item>
+    </string-array>
+
+    <string-array name="active_time">
+        <item>#4A148C</item>
+    </string-array>
+
+    <string-array name="start_colors">
+        <item>#B71C1C</item>
+        <item>#33691E</item>
+        <item>#01579B</item>
+        <item>#4A148C</item>
+    </string-array>
+
+    <string-array name="end_colors">
+        <item>#ff9800</item>
+        <item>#cddc39</item>
+        <item>#607d8b</item>
+        <item>#e91e63</item>
+    </string-array>
+
+    <string-array name="bg_colors">
+        <item>#484848</item>
+        <item>#484848</item>
+        <item>#484848</item>
+        <item>#484848</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_entries">
+        <item>Low</item>
+        <item>Moderate</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="pref_gender_entries">
+        <item>Female</item>
+        <item>Male</item>
+    </string-array>
+
+    <string-array name="pref_gender_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+</resources>

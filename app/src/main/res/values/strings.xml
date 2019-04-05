@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Outshine</string>
+
+    <!-- tabs -->
+    <string name="tab_my_day">My Day</string>
+    <string name="tab_challenges">Challenges</string>
+    <string name="tab_settings">Settings</string>
+
+    <!-- toolbar actions -->
+    <string name="action_sync">Sync</string>
+    <string name="action_more">More</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_clear_all">Clear all</string>
+    <string name="action_mark_all_read">Mark all as read</string>
+
+    <!-- drawer -->
+    <string name="drawer_profile">Profile</string>
+    <string name="drawer_goals">Goals</string>
+    <string name="drawer_notifications">Notifications</string>
+    <string name="other">Other</string>
+    <string name="drawer_about_us">About Us</string>
+    <string name="drawer_policy">Policy</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- drawer array -->
+    <string-array name="nav_item_activity_titles">
+        <item>My Day</item>
+        <item>Profile</item>
+        <item>Goals</item>
+        <item>Notifications</item>
+    </string-array>
+
+    <!-- slider -->
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="slide_1_title">Hello!</string>
+    <string name="slide_1_desc">We are so happy that you are joining us!</string>
+    <string name="slide_2_title">About Us</string>
+    <string name="slide_2_desc">We are a joined research group between computer science
+        and engineering departments.</string>
+    <string name="slide_3_title">What is MOAA?</string>
+    <string name="slide_3_desc">A platform to motivate users to be more active.</string>
+    <string name="slide_4_title">Let\'s Get Started</string>
+    <string name="slide_4_desc">If you are an existing user, skip to login,
+        otherwise register here.</string>
+
+    <!-- register-login activity -->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="create_account">Create Account</string>
+    <string name="reset_password">Forgot your password?</string>
+    <string name="back_to_login">Already registered? Sign in here.</string>
+    <string name="back_to_register">New user? Sign up here.</string>
+    <string name="lets_get_started">Let\'s Get Started!</string>
+    <string name="welcome">Welcome to Outshine</string>
+
+    <!-- my day -->
+    <string name="date">Date</string>
+    <string name="steps">Steps</string>
+    <string name="distance">Distance</string>
+    <string name="calories">Calories</string>
+    <string name="active_time">Active Time</string>
+
+    <!-- others -->
+    <string name="policy">
+        This app is licenced under Memorial University.
+    </string>
+
+    <string name="about">
+        The Wireless Networking and Mobile Computing Laboratory (WineMocol) is a joint research group of faculty members, graduate students, and visitors at Memorial University CS and ECE. Our research interests include mobile ad hoc networking, mobile social networking, wireless sensor networks, vehicular ad hoc networking, smart grids, web information retrieval, etc. The mission of this platform is to promote synergize innovation in these information and communication technology areas. Our projects and meetings are open to the public and students and collaborators are always welcome to join them.
+    </string>
+
+    <!-- settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_header_about">About</string>
+
+    <string name="title_sync">Auto Sync</string>
+    <string name="key_sync">key_sync</string>
+    <string name="summary_sync">Sync with server only when wifi is available</string>
+
+    <string name="title_sync_frequency">Sync Frequency</string>
+    <string name="key_sync_frequency">key_sync_frequency</string>
+    <string name="summary_sync_frequency">Specify the frequency of syncing with server</string>
+
+    <string name="title_location_frequency">Location Service Frequency</string>
+    <string name="key_location_frequency">key_location_frequency</string>
+    <string name="summary_location_frequency">Specify the frequency of accessing your location</string>
+
+    <string name="summary_about">We are a research team of graduate computer science and engineering students, specialized in Graph Theory, Social Network, Computer Networking, and Mobile App Development.</string>
+
+    <string name="title_version">Version</string>
+    <string name="app_version">1.0</string>
+
+    <string name="title_send_feedback">Send Feedback</string>
+    <string name="key_send_feedback">key_send_feedback</string>
+    <string name="summary_support">Got any queries? We are happy to hear!</string>
+    <string name="choose_email_client">Choose email client</string>
+
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="url_privacy">http://www.cs.mun.ca/~winemocol/</string>
+
+    <string name="title_terms">Terms &amp; Conditions</string>
+    <string name="url_terms">http://www.cs.mun.ca/~winemocol/</string>
+
+    <!-- profile -->
+    <string name="pref_header_personal_info">Personal Information</string>
+
+    <string name="title_name">Name</string>
+    <string name="key_name">key_name</string>
+    <string name="summary_name">Enter your full name here</string>
+
+    <string name="title_nickname">Nickname</string>
+    <string name="key_nickname">key_nickname</string>
+    <string name="summary_nickname">Enter your nickname here</string>
+
+    <string name="title_gender">Gender</string>
+    <string name="key_gender">key_gender</string>
+    <string name="summary_gender">Specify your gender here</string>
+
+    <string name="title_birthday">Birthday</string>
+    <string name="key_birthday">key_birthday</string>
+    <string name="summary_birthday">Enter your date of birth here</string>
+
+    <string name="title_height">Height</string>
+    <string name="key_height">key_height</string>
+    <string name="summary_height">Enter your height here</string>
+
+    <string name="title_weight">Weight</string>
+    <string name="key_weight">key_weight</string>
+    <string name="summary_weight">Enter your weight here</string>
+
+    <!-- goals -->
+    <string name="pref_header_goals">Goals</string>
+
+    <string name="title_steps">Steps</string>
+    <string name="key_steps">key_steps</string>
+    <string name="summary_steps">Enter your step goal for each day, e.g., 10000</string>
+
+    <string name="title_distance">Distance</string>
+    <string name="key_distance">key_distance</string>
+    <string name="summary_distance">Enter your distance goal (meters) for each day, e.g., 5000</string>
+
+    <string name="title_calories">Calories</string>
+    <string name="key_calories">key_calories</string>
+    <string name="summary_calories">Enter your distance calories for each day, e.g., 2000</string>
+
+    <string name="title_active_time">Active Time</string>
+    <string name="key_active_time">key_active_time</string>
+    <string name="summary_active_time">Enter your active time goal for each day, e.g., 30 minutes active time per hour averaged thorough a day</string>
+
+
+</resources>

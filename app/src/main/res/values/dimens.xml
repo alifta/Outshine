@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Screen -->
+    <dimen name="no_margin">0dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <!-- Elements -->
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btn_margin">20dp</dimen>
+    <!-- Drawer -->
+    <dimen name="drawer_header_height">160dp</dimen>
+    <dimen name="drawer_image_width">80dp</dimen>
+    <dimen name="drawer_image_height">80dp</dimen>
+    <!-- Slider -->
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="img_width_height">120dp</dimen>
+    <dimen name="desc_margin">20dp</dimen>
+    <dimen name="desc_padding">40dp</dimen>
+    <dimen name="slide_title">30sp</dimen>
+    <dimen name="slide_desc">16sp</dimen>
+
+    <!-- recycler view -->
+    <dimen name="row_padding">8dp</dimen>
+
+</resources>

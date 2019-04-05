@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_16"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/my_day_title"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/steps_txt"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/steps" />
+
+    <TextView
+        android:id="@+id/my_day_stairs"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/btn_get_steps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/steps" />
+
+    <Button
+        android:id="@+id/my_day_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/my_day_stop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <TextView
+        android:id="@+id/my_day_txt_activity"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/steps" />
+
+    <TextView
+        android:id="@+id/my_day_txt_confidence"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/my_day_start_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+    <Button
+        android:id="@+id/my_day_stop_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="x" />
+
+</LinearLayout>

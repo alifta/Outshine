@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_general">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_sync"
+            android:summary="@string/summary_sync"
+            android:title="@string/title_sync" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/title_sync_frequency"
+            android:entries="@array/pref_sync_frequency_entries"
+            android:entryValues="@array/pref_sync_frequency_values"
+            android:key="@string/key_sync_frequency"
+            android:summary="@string/summary_sync_frequency"
+            android:title="@string/title_sync_frequency" />
+
+        <ListPreference
+            android:defaultValue="1"
+            android:dialogTitle="@string/title_location_frequency"
+            android:entries="@array/pref_sync_frequency_entries"
+            android:entryValues="@array/pref_sync_frequency_values"
+            android:key="@string/key_location_frequency"
+            android:summary="@string/summary_location_frequency"
+            android:title="@string/title_location_frequency" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/pref_header_about">
+
+        <Preference
+            android:selectable="false"
+            android:summary="@string/summary_about" />
+
+        <Preference
+            android:summary="@string/app_version"
+            android:title="@string/title_version" />
+
+        <Preference
+            android:key="@string/key_send_feedback"
+            android:summary="@string/summary_support"
+            android:title="@string/title_send_feedback" />
+
+        <Preference android:title="@string/privacy_policy">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/url_privacy" />
+        </Preference>
+
+        <!--<Preference android:title="@string/title_terms">-->
+        <!--<intent-->
+        <!--android:action="android.intent.action.VIEW"-->
+        <!--android:data="@string/url_terms" />-->
+        <!--</Preference>-->
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

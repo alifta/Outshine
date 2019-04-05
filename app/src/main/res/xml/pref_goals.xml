@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_personal_info">
+
+        <EditTextPreference
+            android:key="@string/key_steps"
+            android:summary="@string/summary_steps"
+            android:title="@string/title_steps" />
+
+        <EditTextPreference
+            android:key="@string/key_distance"
+            android:summary="@string/summary_distance"
+            android:title="@string/title_distance" />
+
+        <EditTextPreference
+            android:key="@string/key_calories"
+            android:summary="@string/summary_calories"
+            android:title="@string/title_calories" />
+
+        <EditTextPreference
+            android:key="@string/key_active_time"
+            android:summary="@string/summary_active_time"
+            android:title="@string/title_active_time" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

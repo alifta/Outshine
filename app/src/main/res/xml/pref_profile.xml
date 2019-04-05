@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/pref_header_personal_info">
+
+        <EditTextPreference
+            android:key="@string/key_name"
+            android:summary="@string/summary_name"
+            android:title="@string/title_name" />
+
+        <EditTextPreference
+            android:key="@string/key_nickname"
+            android:summary="@string/summary_nickname"
+            android:title="@string/title_nickname" />
+
+        <ListPreference
+            android:dialogTitle="@string/title_gender"
+            android:entries="@array/pref_gender_entries"
+            android:entryValues="@array/pref_gender_values"
+            android:key="@string/key_gender"
+            android:summary="@string/summary_gender"
+            android:title="@string/title_gender" />
+
+        <EditTextPreference
+            android:key="@string/key_height"
+            android:summary="@string/summary_height"
+            android:title="@string/title_height" />
+
+        <EditTextPreference
+            android:key="@string/key_weight"
+            android:summary="@string/summary_weight"
+            android:title="@string/title_weight" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

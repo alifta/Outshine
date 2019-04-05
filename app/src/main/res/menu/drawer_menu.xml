@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_my_day"
+            android:icon="@drawable/ic_my_day"
+            android:title="@string/tab_my_day" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/drawer_profile" />
+        <item
+            android:id="@+id/nav_goals"
+            android:icon="@drawable/ic_goals"
+            android:title="@string/drawer_goals" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notification"
+            android:title="@string/drawer_notifications" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_about"
+                android:title="@string/drawer_about_us" />
+            <item
+                android:id="@+id/nav_policy"
+                android:title="@string/drawer_policy" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,50 @@
+{
+  "project_info": {
+    "project_number": "405702292531",
+    "firebase_url": "https://csgs-outshine.firebaseio.com",
+    "project_id": "csgs-outshine",
+    "storage_bucket": "csgs-outshine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405702292531:android:a6684349cb153f47",
+        "android_client_info": {
+          "package_name": "ca.mun.outshine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405702292531-fqidaeoet8v218uoiks0bnp7bmb00a1m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.mun.outshine",
+            "certificate_hash": "c093ba7233a78feec20a266678e2383d9d7c21fb"
+          }
+        },
+        {
+          "client_id": "405702292531-7jteiqjh6q9elr3ftcppdtehrc1l05dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcr3RUr-KOjot7IA2jZu-lsnTc5rciMrE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
